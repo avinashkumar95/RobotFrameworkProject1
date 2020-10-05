@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.5 on darwin)" generated="20201005 01:57:30.906" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.5 on darwin)" generated="20201005 02:09:22.239" rpa="false">
 <suite id="s1" name="Myproject1" source="/Users/avinashkumar/PycharmProjects/RobotFramework/pythonProject/pythonProject/MyProject1/tests/myproject1.robot">
 <test id="s1-t1" name="Tast Case 1">
 <kw name="Begin Web Browser" library="CommonWeb" type="setup">
@@ -9,10 +9,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:31.435" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20201005 01:57:31.435" endtime="20201005 01:57:33.153"></status>
+<msg timestamp="20201005 02:09:22.485" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20201005 02:09:22.485" endtime="20201005 02:09:24.163"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:31.434" endtime="20201005 01:57:33.154"></status>
+<status status="PASS" starttime="20201005 02:09:22.484" endtime="20201005 02:09:24.164"></status>
 </kw>
 <kw name="Start New Page" library="MyProject1App">
 <kw name="Load Page" library="Landing">
@@ -21,29 +21,29 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:33.161" level="INFO">Opening url 'http://www.google.com'</msg>
-<status status="PASS" starttime="20201005 01:57:33.160" endtime="20201005 01:57:33.939"></status>
+<msg timestamp="20201005 02:09:24.170" level="INFO">Opening url 'http://www.google.com'</msg>
+<status status="PASS" starttime="20201005 02:09:24.169" endtime="20201005 02:09:24.964"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:35.941" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:33.939" endtime="20201005 01:57:35.941"></status>
+<msg timestamp="20201005 02:09:26.967" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:24.964" endtime="20201005 02:09:26.967"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:33.159" endtime="20201005 01:57:35.942"></status>
+<status status="PASS" starttime="20201005 02:09:24.168" endtime="20201005 02:09:26.967"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:33.158" endtime="20201005 01:57:35.942"></status>
+<status status="PASS" starttime="20201005 02:09:24.166" endtime="20201005 02:09:26.968"></status>
 </kw>
 <kw name="End Web Browser" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201005 01:57:35.944" endtime="20201005 01:57:35.995"></status>
+<status status="PASS" starttime="20201005 02:09:26.970" endtime="20201005 02:09:26.998"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:35.943" endtime="20201005 01:57:35.996"></status>
+<status status="PASS" starttime="20201005 02:09:26.969" endtime="20201005 02:09:26.999"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:31.433" endtime="20201005 01:57:35.996" critical="yes"></status>
+<status status="PASS" starttime="20201005 02:09:22.483" endtime="20201005 02:09:26.999" critical="yes"></status>
 </test>
 <test id="s1-t2" name="Test Case 2">
 <kw name="Begin Web Browser" library="CommonWeb" type="setup">
@@ -53,10 +53,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:36.000" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20201005 01:57:35.999" endtime="20201005 01:57:37.592"></status>
+<msg timestamp="20201005 02:09:27.007" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20201005 02:09:27.005" endtime="20201005 02:09:28.614"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:35.998" endtime="20201005 01:57:37.592"></status>
+<status status="PASS" starttime="20201005 02:09:27.003" endtime="20201005 02:09:28.615"></status>
 </kw>
 <kw name="Start New Page" library="MyProject1App">
 <kw name="Load Page" library="Landing">
@@ -65,20 +65,20 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:37.600" level="INFO">Opening url 'http://www.google.com'</msg>
-<status status="PASS" starttime="20201005 01:57:37.599" endtime="20201005 01:57:38.247"></status>
+<msg timestamp="20201005 02:09:28.624" level="INFO">Opening url 'http://www.google.com'</msg>
+<status status="PASS" starttime="20201005 02:09:28.623" endtime="20201005 02:09:29.668"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:40.250" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:38.248" endtime="20201005 01:57:40.250"></status>
+<msg timestamp="20201005 02:09:31.670" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:29.668" endtime="20201005 02:09:31.670"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:37.598" endtime="20201005 01:57:40.251"></status>
+<status status="PASS" starttime="20201005 02:09:28.620" endtime="20201005 02:09:31.670"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:37.595" endtime="20201005 01:57:40.251"></status>
+<status status="PASS" starttime="20201005 02:09:28.616" endtime="20201005 02:09:31.671"></status>
 </kw>
 <kw name="Start New Seach" library="MyProject1App">
 <arguments>
@@ -94,29 +94,29 @@
 <arg>css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
 <arg>${search}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:40.256" level="INFO">Typing text 'hello world' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
-<status status="PASS" starttime="20201005 01:57:40.255" endtime="20201005 01:57:40.414"></status>
+<msg timestamp="20201005 02:09:31.674" level="INFO">Typing text 'hello world' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
+<status status="PASS" starttime="20201005 02:09:31.673" endtime="20201005 02:09:31.821"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:41.416" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20201005 01:57:40.414" endtime="20201005 01:57:41.416"></status>
+<msg timestamp="20201005 02:09:32.824" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20201005 02:09:31.821" endtime="20201005 02:09:32.824"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:40.254" endtime="20201005 01:57:41.417"></status>
+<status status="PASS" starttime="20201005 02:09:31.672" endtime="20201005 02:09:32.825"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:40.252" endtime="20201005 01:57:41.417"></status>
+<status status="PASS" starttime="20201005 02:09:31.671" endtime="20201005 02:09:32.825"></status>
 </kw>
 <kw name="End Web Browser" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201005 01:57:41.419" endtime="20201005 01:57:41.444"></status>
+<status status="PASS" starttime="20201005 02:09:32.826" endtime="20201005 02:09:32.847"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:41.418" endtime="20201005 01:57:41.445"></status>
+<status status="PASS" starttime="20201005 02:09:32.826" endtime="20201005 02:09:32.847"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:35.997" endtime="20201005 01:57:41.446" critical="yes"></status>
+<status status="PASS" starttime="20201005 02:09:27.001" endtime="20201005 02:09:32.848" critical="yes"></status>
 </test>
 <test id="s1-t3" name="Test Case 3">
 <kw name="Begin Web Browser" library="CommonWeb" type="setup">
@@ -126,10 +126,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:41.454" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20201005 01:57:41.452" endtime="20201005 01:57:43.074"></status>
+<msg timestamp="20201005 02:09:32.855" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20201005 02:09:32.855" endtime="20201005 02:09:34.458"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:41.449" endtime="20201005 01:57:43.075"></status>
+<status status="PASS" starttime="20201005 02:09:32.854" endtime="20201005 02:09:34.462"></status>
 </kw>
 <kw name="Start New Page" library="MyProject1App">
 <kw name="Load Page" library="Landing">
@@ -138,20 +138,20 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:43.084" level="INFO">Opening url 'http://www.google.com'</msg>
-<status status="PASS" starttime="20201005 01:57:43.081" endtime="20201005 01:57:43.830"></status>
+<msg timestamp="20201005 02:09:34.465" level="INFO">Opening url 'http://www.google.com'</msg>
+<status status="PASS" starttime="20201005 02:09:34.465" endtime="20201005 02:09:35.361"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:45.831" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:43.830" endtime="20201005 01:57:45.832"></status>
+<msg timestamp="20201005 02:09:37.362" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:35.361" endtime="20201005 02:09:37.362"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:43.079" endtime="20201005 01:57:45.832"></status>
+<status status="PASS" starttime="20201005 02:09:34.464" endtime="20201005 02:09:37.363"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:43.076" endtime="20201005 01:57:45.832"></status>
+<status status="PASS" starttime="20201005 02:09:34.463" endtime="20201005 02:09:37.363"></status>
 </kw>
 <kw name="Start New Seach" library="MyProject1App">
 <arguments>
@@ -167,20 +167,20 @@
 <arg>css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
 <arg>${search}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:45.835" level="INFO">Typing text 'hello world' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
-<status status="PASS" starttime="20201005 01:57:45.835" endtime="20201005 01:57:45.981"></status>
+<msg timestamp="20201005 02:09:37.366" level="INFO">Typing text 'hello world' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
+<status status="PASS" starttime="20201005 02:09:37.365" endtime="20201005 02:09:37.521"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:46.983" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20201005 01:57:45.982" endtime="20201005 01:57:46.984"></status>
+<msg timestamp="20201005 02:09:38.523" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20201005 02:09:37.522" endtime="20201005 02:09:38.523"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:45.834" endtime="20201005 01:57:46.984"></status>
+<status status="PASS" starttime="20201005 02:09:37.365" endtime="20201005 02:09:38.523"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:45.833" endtime="20201005 01:57:46.984"></status>
+<status status="PASS" starttime="20201005 02:09:37.364" endtime="20201005 02:09:38.524"></status>
 </kw>
 <kw name="Start New Navigate" library="MyProject1App">
 <kw name="ClickSearch" library="Landing">
@@ -189,27 +189,27 @@
 <arguments>
 <arg>xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]</arg>
 </arguments>
-<msg timestamp="20201005 01:57:46.987" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
-<status status="PASS" starttime="20201005 01:57:46.986" endtime="20201005 01:57:47.040"></status>
+<msg timestamp="20201005 02:09:38.526" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
+<status status="PASS" starttime="20201005 02:09:38.526" endtime="20201005 02:09:38.578"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>About</arg>
 </arguments>
-<status status="PASS" starttime="20201005 01:57:47.041" endtime="20201005 01:57:47.054"></status>
+<status status="PASS" starttime="20201005 02:09:38.579" endtime="20201005 02:09:38.596"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:50.055" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:47.054" endtime="20201005 01:57:50.056"></status>
+<msg timestamp="20201005 02:09:41.597" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:38.597" endtime="20201005 02:09:41.597"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:46.986" endtime="20201005 01:57:50.056"></status>
+<status status="PASS" starttime="20201005 02:09:38.525" endtime="20201005 02:09:41.598"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:46.985" endtime="20201005 01:57:50.056"></status>
+<status status="PASS" starttime="20201005 02:09:38.524" endtime="20201005 02:09:41.598"></status>
 </kw>
 <kw name="Home" library="MyProject1App">
 <kw name="BackToHome" library="Landing">
@@ -218,29 +218,36 @@
 <arguments>
 <arg>css:#logo</arg>
 </arguments>
-<msg timestamp="20201005 01:57:50.059" level="INFO">Clicking link 'css:#logo'.</msg>
-<status status="PASS" starttime="20201005 01:57:50.058" endtime="20201005 01:57:50.108"></status>
+<msg timestamp="20201005 02:09:41.600" level="INFO">Clicking link 'css:#logo'.</msg>
+<status status="PASS" starttime="20201005 02:09:41.600" endtime="20201005 02:09:41.657"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>About</arg>
+</arguments>
+<status status="PASS" starttime="20201005 02:09:41.657" endtime="20201005 02:09:41.668"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:53.111" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:50.108" endtime="20201005 01:57:53.111"></status>
+<msg timestamp="20201005 02:09:44.669" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:41.669" endtime="20201005 02:09:44.670"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:50.058" endtime="20201005 01:57:53.112"></status>
+<status status="PASS" starttime="20201005 02:09:41.599" endtime="20201005 02:09:44.671"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:50.057" endtime="20201005 01:57:53.112"></status>
+<status status="PASS" starttime="20201005 02:09:41.598" endtime="20201005 02:09:44.672"></status>
 </kw>
 <kw name="End Web Browser" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201005 01:57:53.113" endtime="20201005 01:57:53.132"></status>
+<status status="PASS" starttime="20201005 02:09:44.674" endtime="20201005 02:09:44.691"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:53.113" endtime="20201005 01:57:53.132"></status>
+<status status="PASS" starttime="20201005 02:09:44.673" endtime="20201005 02:09:44.693"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:41.447" endtime="20201005 01:57:53.133" critical="yes"></status>
+<status status="PASS" starttime="20201005 02:09:32.852" endtime="20201005 02:09:44.694" critical="yes"></status>
 </test>
 <test id="s1-t4" name="Test Case 4">
 <kw name="Begin Web Browser" library="CommonWeb" type="setup">
@@ -250,10 +257,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:53.140" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20201005 01:57:53.140" endtime="20201005 01:57:54.739"></status>
+<msg timestamp="20201005 02:09:44.700" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20201005 02:09:44.698" endtime="20201005 02:09:46.313"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:53.139" endtime="20201005 01:57:54.742"></status>
+<status status="PASS" starttime="20201005 02:09:44.697" endtime="20201005 02:09:46.314"></status>
 </kw>
 <kw name="Start New Page" library="MyProject1App">
 <kw name="Load Page" library="Landing">
@@ -262,20 +269,20 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:54.747" level="INFO">Opening url 'http://www.google.com'</msg>
-<status status="PASS" starttime="20201005 01:57:54.745" endtime="20201005 01:57:55.394"></status>
+<msg timestamp="20201005 02:09:46.320" level="INFO">Opening url 'http://www.google.com'</msg>
+<status status="PASS" starttime="20201005 02:09:46.318" endtime="20201005 02:09:47.078"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:57.394" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:55.394" endtime="20201005 01:57:57.395"></status>
+<msg timestamp="20201005 02:09:49.080" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:47.078" endtime="20201005 02:09:49.080"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:54.744" endtime="20201005 01:57:57.395"></status>
+<status status="PASS" starttime="20201005 02:09:46.317" endtime="20201005 02:09:49.081"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:54.743" endtime="20201005 01:57:57.395"></status>
+<status status="PASS" starttime="20201005 02:09:46.315" endtime="20201005 02:09:49.081"></status>
 </kw>
 <kw name="Start New Seach" library="MyProject1App">
 <arguments>
@@ -291,20 +298,20 @@
 <arg>css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
 <arg>${search}</arg>
 </arguments>
-<msg timestamp="20201005 01:57:57.398" level="INFO">Typing text 'amazon.com' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
-<status status="PASS" starttime="20201005 01:57:57.398" endtime="20201005 01:57:57.541"></status>
+<msg timestamp="20201005 02:09:49.085" level="INFO">Typing text 'amazon.com' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
+<status status="PASS" starttime="20201005 02:09:49.084" endtime="20201005 02:09:49.222"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20201005 01:57:58.544" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20201005 01:57:57.541" endtime="20201005 01:57:58.544"></status>
+<msg timestamp="20201005 02:09:50.226" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20201005 02:09:49.222" endtime="20201005 02:09:50.226"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:57.397" endtime="20201005 01:57:58.544"></status>
+<status status="PASS" starttime="20201005 02:09:49.082" endtime="20201005 02:09:50.226"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:57.396" endtime="20201005 01:57:58.545"></status>
+<status status="PASS" starttime="20201005 02:09:49.081" endtime="20201005 02:09:50.227"></status>
 </kw>
 <kw name="Start New Navigate" library="MyProject1App">
 <kw name="ClickSearch" library="Landing">
@@ -313,36 +320,36 @@
 <arguments>
 <arg>xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]</arg>
 </arguments>
-<msg timestamp="20201005 01:57:58.547" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
-<status status="PASS" starttime="20201005 01:57:58.546" endtime="20201005 01:57:58.598"></status>
+<msg timestamp="20201005 02:09:50.229" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
+<status status="PASS" starttime="20201005 02:09:50.228" endtime="20201005 02:09:50.277"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>About</arg>
 </arguments>
-<status status="PASS" starttime="20201005 01:57:58.599" endtime="20201005 01:57:58.611"></status>
+<status status="PASS" starttime="20201005 02:09:50.277" endtime="20201005 02:09:50.288"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201005 01:58:01.613" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201005 01:57:58.611" endtime="20201005 01:58:01.613"></status>
+<msg timestamp="20201005 02:09:53.290" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:50.289" endtime="20201005 02:09:53.290"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:58.546" endtime="20201005 01:58:01.614"></status>
+<status status="PASS" starttime="20201005 02:09:50.228" endtime="20201005 02:09:53.291"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:58.545" endtime="20201005 01:58:01.614"></status>
+<status status="PASS" starttime="20201005 02:09:50.227" endtime="20201005 02:09:53.291"></status>
 </kw>
 <kw name="End Web Browser" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201005 01:58:01.616" endtime="20201005 01:58:01.635"></status>
+<status status="PASS" starttime="20201005 02:09:53.292" endtime="20201005 02:09:53.311"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:01.615" endtime="20201005 01:58:01.635"></status>
+<status status="PASS" starttime="20201005 02:09:53.292" endtime="20201005 02:09:53.311"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:57:53.137" endtime="20201005 01:58:01.636" critical="yes"></status>
+<status status="PASS" starttime="20201005 02:09:44.695" endtime="20201005 02:09:53.312" critical="yes"></status>
 </test>
 <test id="s1-t5" name="Test Case 5">
 <kw name="Begin Web Browser" library="CommonWeb" type="setup">
@@ -352,10 +359,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20201005 01:58:01.643" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20201005 01:58:01.642" endtime="20201005 01:58:03.262"></status>
+<msg timestamp="20201005 02:09:53.321" level="INFO">Opening browser 'safari' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20201005 02:09:53.320" endtime="20201005 02:09:54.917"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:01.641" endtime="20201005 01:58:03.263"></status>
+<status status="PASS" starttime="20201005 02:09:53.317" endtime="20201005 02:09:54.917"></status>
 </kw>
 <kw name="Start New Page" library="MyProject1App">
 <kw name="Load Page" library="Landing">
@@ -364,20 +371,20 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20201005 01:58:03.270" level="INFO">Opening url 'http://www.google.com'</msg>
-<status status="PASS" starttime="20201005 01:58:03.269" endtime="20201005 01:58:03.891"></status>
+<msg timestamp="20201005 02:09:54.925" level="INFO">Opening url 'http://www.google.com'</msg>
+<status status="PASS" starttime="20201005 02:09:54.923" endtime="20201005 02:09:55.596"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201005 01:58:05.893" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201005 01:58:03.892" endtime="20201005 01:58:05.893"></status>
+<msg timestamp="20201005 02:09:57.598" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:55.596" endtime="20201005 02:09:57.598"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:03.268" endtime="20201005 01:58:05.894"></status>
+<status status="PASS" starttime="20201005 02:09:54.919" endtime="20201005 02:09:57.598"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:03.265" endtime="20201005 01:58:05.894"></status>
+<status status="PASS" starttime="20201005 02:09:54.918" endtime="20201005 02:09:57.599"></status>
 </kw>
 <kw name="Start New Seach" library="MyProject1App">
 <arguments>
@@ -393,20 +400,20 @@
 <arg>css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input</arg>
 <arg>${search}</arg>
 </arguments>
-<msg timestamp="20201005 01:58:05.897" level="INFO">Typing text 'youtube.com' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
-<status status="PASS" starttime="20201005 01:58:05.897" endtime="20201005 01:58:06.050"></status>
+<msg timestamp="20201005 02:09:57.601" level="INFO">Typing text 'youtube.com' into text field 'css:#tsf &gt; div:nth-child(2) &gt; div.A8SBwf &gt; div.RNNXgb &gt; div &gt; div.a4bIc &gt; input'.</msg>
+<status status="PASS" starttime="20201005 02:09:57.601" endtime="20201005 02:09:57.757"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20201005 01:58:07.052" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20201005 01:58:06.050" endtime="20201005 01:58:07.053"></status>
+<msg timestamp="20201005 02:09:58.758" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20201005 02:09:57.757" endtime="20201005 02:09:58.758"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:05.896" endtime="20201005 01:58:07.053"></status>
+<status status="PASS" starttime="20201005 02:09:57.600" endtime="20201005 02:09:58.759"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:05.895" endtime="20201005 01:58:07.053"></status>
+<status status="PASS" starttime="20201005 02:09:57.599" endtime="20201005 02:09:58.759"></status>
 </kw>
 <kw name="Start New Navigate" library="MyProject1App">
 <kw name="ClickSearch" library="Landing">
@@ -415,27 +422,27 @@
 <arguments>
 <arg>xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]</arg>
 </arguments>
-<msg timestamp="20201005 01:58:07.056" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
-<status status="PASS" starttime="20201005 01:58:07.055" endtime="20201005 01:58:07.104"></status>
+<msg timestamp="20201005 02:09:58.762" level="INFO">Clicking button 'xpath://*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]'.</msg>
+<status status="PASS" starttime="20201005 02:09:58.761" endtime="20201005 02:09:58.811"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>About</arg>
 </arguments>
-<status status="PASS" starttime="20201005 01:58:07.105" endtime="20201005 01:58:07.122"></status>
+<status status="PASS" starttime="20201005 02:09:58.812" endtime="20201005 02:09:58.829"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201005 01:58:10.124" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201005 01:58:07.122" endtime="20201005 01:58:10.124"></status>
+<msg timestamp="20201005 02:10:01.832" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201005 02:09:58.829" endtime="20201005 02:10:01.832"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:07.054" endtime="20201005 01:58:10.124"></status>
+<status status="PASS" starttime="20201005 02:09:58.760" endtime="20201005 02:10:01.833"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:07.054" endtime="20201005 01:58:10.125"></status>
+<status status="PASS" starttime="20201005 02:09:58.760" endtime="20201005 02:10:01.833"></status>
 </kw>
 <kw name="Home" library="MyProject1App">
 <kw name="BackToHome" library="Landing">
@@ -444,32 +451,39 @@
 <arguments>
 <arg>css:#logo</arg>
 </arguments>
-<msg timestamp="20201005 01:58:10.127" level="INFO">Clicking link 'css:#logo'.</msg>
-<status status="PASS" starttime="20201005 01:58:10.126" endtime="20201005 01:58:10.183"></status>
+<msg timestamp="20201005 02:10:01.835" level="INFO">Clicking link 'css:#logo'.</msg>
+<status status="PASS" starttime="20201005 02:10:01.835" endtime="20201005 02:10:01.884"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>About</arg>
+</arguments>
+<status status="PASS" starttime="20201005 02:10:01.884" endtime="20201005 02:10:01.897"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201005 01:58:13.185" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201005 01:58:10.183" endtime="20201005 01:58:13.185"></status>
+<msg timestamp="20201005 02:10:04.898" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201005 02:10:01.898" endtime="20201005 02:10:04.899"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:10.126" endtime="20201005 01:58:13.186"></status>
+<status status="PASS" starttime="20201005 02:10:01.834" endtime="20201005 02:10:04.899"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:10.125" endtime="20201005 01:58:13.186"></status>
+<status status="PASS" starttime="20201005 02:10:01.834" endtime="20201005 02:10:04.899"></status>
 </kw>
 <kw name="End Web Browser" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201005 01:58:13.188" endtime="20201005 01:58:13.212"></status>
+<status status="PASS" starttime="20201005 02:10:04.901" endtime="20201005 02:10:04.919"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:13.187" endtime="20201005 01:58:13.213"></status>
+<status status="PASS" starttime="20201005 02:10:04.900" endtime="20201005 02:10:04.920"></status>
 </kw>
-<status status="PASS" starttime="20201005 01:58:01.638" endtime="20201005 01:58:13.214" critical="yes"></status>
+<status status="PASS" starttime="20201005 02:09:53.314" endtime="20201005 02:10:04.920" critical="yes"></status>
 </test>
 <doc>My First Independent Robot Framework Project</doc>
-<status status="PASS" starttime="20201005 01:57:30.910" endtime="20201005 01:58:13.221"></status>
+<status status="PASS" starttime="20201005 02:09:22.242" endtime="20201005 02:10:04.926"></status>
 </suite>
 <statistics>
 <total>

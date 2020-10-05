@@ -21,4 +21,5 @@ ClickSearch
 
 BackToHome
     click link    css:#logo
-    sleep    3s
+    wait until page contains    About
+    sleep   3s
